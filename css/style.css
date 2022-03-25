@@ -18,9 +18,22 @@ span {
   text-decoration: none;
 }
 
+.header.dark {
+  background: #1c150d;
+}
+
 .header .web,
 .footer .web {
   display: none;
+}
+
+.shadow {
+  -webkit-box-shadow: 3px 3px 7px -5px rgba(33, 20, 10, 0.46);
+  box-shadow: 3px 3px 7px -5px rgba(33, 20, 10, 0.46);
+}
+
+.text-shadow {
+  text-shadow: 1px 2px 2px rgba(26, 81, 133, 0.7);
 }
 
 /* header */
@@ -28,6 +41,11 @@ span {
   display: flex;
   flex-direction: row;
   padding: 30px;
+  border-bottom: 1px dotted #1c150d;
+}
+
+.header.dark .mobile {
+  border-bottom: 1px dotted white;
 }
 
 .header .mobile > .nav,
@@ -40,8 +58,13 @@ span {
   justify-content: center;
 }
 
+.header .mobile > .logo a {
+  width: 100%;
+  text-align: center;
+}
+
 .header .mobile > .logo img {
-  max-width: 50%;
+  max-width: 60%;
 }
 
 .header .mobile > .nav {
@@ -53,7 +76,11 @@ span {
 }
 
 .header .mobile > .cart i {
-  color: #6667a8;
+  color: #1c150d;
+}
+
+.header.dark .mobile > .cart i {
+  color: white;
 }
 
 .header .mobile > div {
@@ -78,38 +105,58 @@ span {
   left: 0;
 }
 
+.dark .burger .cb ~ .bars span {
+  background: white;
+}
+
 .burger .cb:checked ~ .bars span {
-  background: #e07a5f;
+  background: white;
+}
+
+.dark .burger .cb:checked ~ .bars span {
+  background: #1c150d;
 }
 
 .burger .bars span {
-  height: 3px;
+  height: 2px;
   width: 100%;
   background: #1c150d;
   display: block;
   position: relative;
   z-index: 99;
-  margin-bottom: 5px;
-  border-radius: 2px;
+  margin-bottom: 6px;
+  border-radius: 1px;
 }
 
 .flyout {
-  background: #f4f1de;
+  background: #1c150d;
   text-align: left;
-  width: 100%;
-  height: 50vh;
+  width: 100vw;
+  height: 100vh;
   position: absolute;
-  padding: 40px;
-  padding-top: 70px;
   top: 0px;
   left: -100vw;
   z-index: 1;
-  border-top-right-radius: 10px;
-  border-bottom-right-radius: 10px;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  padding-top: 100px;
+  padding-left: 30px;
+  border-bottom-right-radius: 2px;
 }
 
+.dark .flyout {
+  background: white;
+}
+
+.flyout a {
+  display: block;
+  padding-bottom: 30px;
+  font-size: 26px;
+  color: white;
+  font-weight: 300;
+}
+
+.dark .flyout a {
+  color: #1c150d;
+}
 /* footer */
 
 .footer .mobile {
@@ -117,6 +164,13 @@ span {
   flex-direction: row;
   padding: 30px;
   background: #ede9e7;
+}
+
+.footer.dark .mobile {
+  display: flex;
+  flex-direction: row;
+  padding: 30px;
+  background: #1c150d;
 }
 
 .footer .mobile > div {
@@ -146,6 +200,58 @@ span {
 .footer .mobile .center a,
 .footer .mobile .right a {
   color: #1c150d;
+  font-size: 14px;
+}
+
+.footer.dark .mobile .left a,
+.footer.dark .mobile .center a,
+.footer.dark .mobile .right a {
+  color: white;
+  font-size: 14px;
+}
+
+/* Pages */
+
+.page {
+  padding: 30px;
+}
+
+.page .header {
+  text-align: center;
+  width: 65%;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+.page .header h1 {
+  font-weight: 900;
+  font-size: 24px;
+  color: #1c150d;
+  margin-bottom: 10px;
+}
+
+.page .header span {
+  font-weight: 700;
+  font-size: 10px;
+  text-transform: uppercase;
+  color: #a49f9c;
+}
+
+.page .content p {
+  font-size: 12px;
+  font-weight: 300;
+}
+
+a.cta {
+  background: #6667a8;
+  color: white;
+  padding: 10px;
+  width: 200px;
+  text-align: center;
+  font-size: 14px;
+  text-transform: uppercase;
+  border-radius: 2px;
+  font-weight: 700;
 }
 
 @media only screen and (min-width: 600px) {
@@ -167,14 +273,14 @@ span {
   }
 
   .header .web .logo {
-    width: 30%;
+    min-width: 450px;
     padding: 50px 100px 50px 100px;
     margin: 0 auto;
   }
 
   .header .web .menu {
     border-top: 2px dotted #000;
-    padding: 50px 100px 50px 100px;
+    padding: 25px 100px 25px 100px;
     display: flex;
     justify-content: space-between;
   }
@@ -182,7 +288,14 @@ span {
   .header .web .menu a {
     text-transform: uppercase;
     color: #1c150d;
+    font-size: 14px;
+  }
+
+  .header .web .menu a.menu-hover {
+    border-top: 3px solid white;
+    border-bottom: 3px solid white;
     padding-bottom: 5px;
+    transition: all 0.5s ease;
   }
 
   .header .web .menu i:hover {
@@ -190,8 +303,7 @@ span {
   }
 
   .header .web .menu a.menu-hover:hover {
-    border-bottom: 2px solid #6667a8;
-    border-radius: 1px;
+    border-bottom: 3px solid #6667a8;
     padding-bottom: 5px;
   }
 
@@ -200,7 +312,7 @@ span {
   .footer .web {
     display: flex;
     flex-direction: row;
-    padding: 50px 100px 50px 100px;
+    padding: 25px 100px 25px 100px;
     background-color: #ede9e7;
   }
 
@@ -218,7 +330,7 @@ span {
   .footer .web .left a {
     color: #1c150d;
     text-transform: uppercase;
-    font-size: 12px;
+    font-size: 14px;
   }
 
   .footer .web .right {

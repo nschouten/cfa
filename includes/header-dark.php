@@ -3,15 +3,9 @@
 <head>
 	<title>Copycart Fine Art</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link rel="stylesheet" type="text/css" href="css/home.css">
-	<link rel="stylesheet" type="text/css" href="css/about.css">
-	<link rel="stylesheet" type="text/css" href="css/brokrage.css">
-	<link rel="stylesheet" type="text/css" href="css/cart.css">
-	<link rel="stylesheet" type="text/css" href="css/checkout.css">
-	<link rel="stylesheet" type="text/css" href="css/contact.css">
-	<link rel="stylesheet" type="text/css" href="css/galleries.css">
-	<link rel="stylesheet" type="text/css" href="css/print.css">
-	<link rel="stylesheet" type="text/css" href="css/scan.css">
+	<link rel="stylesheet" type="text/css" href="css/artists.css">
+	<link rel="stylesheet" type="text/css" href="css/products.css">
+	<link rel="stylesheet" type="text/css" href="css/product.css">
 	<script src="https://kit.fontawesome.com/e3512c10d7.js" crossorigin="anonymous"></script>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 	<link rel="preconnect" href="https://fonts.googleapis.com"> 
@@ -20,7 +14,7 @@
 </head>
 <body>
 
-<div class="header">
+<div class="header dark">
     <div class="mobile">
 		<div class="nav">
 			<div class="burger">
@@ -42,7 +36,7 @@
 			</div> <!-- burger -->
 		</div> <!-- nav -->
 		<div class="logo">
-			<a href="index.php"><img src="imgs/logo_justtext.svg" alt="cfa logo" /></a>
+			<a href="index.php"><img src="imgs/logo_justtext_white.svg" alt="cfa logo" /></a>
 		</div> <!-- logo -->
 		<div class="cart">
 			<a href="cart.php"><i class="fa-solid fa-cart-shopping"></i></a>
@@ -63,6 +57,6 @@
 			<a href="cart.php"><i class="fa-solid fa-cart-shopping"></i></a>
 		</div>
 	</div> 	<!-- web -->
-</div>	<!-- header -->
+</div>	<!-- header dark-->
 	
 			
