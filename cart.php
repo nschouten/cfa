@@ -4,6 +4,7 @@ include("includes/header.php")
 	<div class="page cart">
 		<div class="header">
 			<h1>Cart</h1>
+			<span>You have great taste!</span>
 		</div>
 		<div class="content">
 			<div class="block a">
@@ -28,6 +29,7 @@ include("includes/header.php")
 					<span>Subtotal</span>
 					<span>$5,880.00</span>
 				</div>
+				<hr class="dotted">
 				<div class="row">
 					<span>Shpping</span>
 					<span>$100.00</span>
@@ -36,13 +38,14 @@ include("includes/header.php")
 					<span>Tax</span>
 					<span>$320.00</span>
 				</div>
+				<hr class="dotted">
 				<div class="row">
 					<span>Total</span>
 					<span>$5,980.00</span>
 				</div>
 			</div>  <!-- block b -->
 			<div class="block c">
-				<a href="checkout.php">Proceed to Checkout</a>
+				<a class="cta" href="checkout.php">Proceed to Checkout</a>
 			</div> <!-- block c -->
 		</div>  <!-- content -->
 	</div> <!-- cart-->

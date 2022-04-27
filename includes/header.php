@@ -31,13 +31,13 @@
 					<span></span>
 				</div>
 				<div class="flyout">
-					<a href="print.php">Printing</a>
-					<a href="scan.php">Scanning</a>
-					<a href="brokrage.php">Brokrage</a>
-					<a href="galleries.php">Artist Gallery</a>
-					<a href="about.php">About</a>
-					<a href="contact.php">Contact</a>
-					<a href="contact.php/#faq">FAQ</a>
+					<a href="print.php"><i class="fa-solid fa-plus"></i> Printing</a>
+					<a href="scan.php"><i class="fa-solid fa-plus"></i>Scanning</a>
+					<a href="brokrage.php"><i class="fa-solid fa-plus"></i>Brokrage</a>
+					<a href="galleries.php"><i class="fa-solid fa-plus"></i>Artist Gallery</a>
+					<a href="about.php"><i class="fa-solid fa-plus"></i>About</a>
+					<a href="contact.php"><i class="fa-solid fa-plus"></i>Contact</a>
+					<a href="contact.php#faq"><i class="fa-solid fa-plus"></i>FAQ</a>
 				</div> <!-- flyout -->
 			</div> <!-- burger -->
 		</div> <!-- nav -->
@@ -59,7 +59,7 @@
 			<a href="galleries.php" class="menu-hover">Artist Gallery</a>
 			<a href="about.php" class="menu-hover">About</a>
 			<a href="contact.php" class="menu-hover">Contact</a>
-			<a href="contact.php/#faq" class="menu-hover">FAQ</a>
+			<a href="contact.php#faq" class="menu-hover">FAQ</a>
 			<a href="cart.php"><i class="fa-solid fa-cart-shopping"></i></a>
 		</div>
 	</div> 	<!-- web -->

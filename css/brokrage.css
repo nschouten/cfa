@@ -1,2 +1,69 @@
+.brokrage .content .block.a {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.brokrage .content .block .number {
+  border: 1px solid #c4c4c4;
+  height: 40px;
+  width: 40px;
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.brokrage .content .block.a h3 {
+  margin-bottom: 15px;
+}
+
+.brokrage .content .block.a p {
+  font-weight: 300;
+  font-size: 14px;
+  color: #1c150d;
+}
+
+.brokrage .content .block .italic {
+  font-style: italic;
+  font-weight: 400;
+}
+
+.brokrage .content .block .underlined {
+  text-decoration: underline;
+}
+
+.brokrage .content .block.b,
+.brokrage .content .block.c,
+.brokrage .content .block.d,
+.brokrage .content .block.e,
+.brokrage .content .block.f {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 30px;
+}
+
+.brokrage .content .block.b img,
+.brokrage .content .block.c img,
+.brokrage .content .block.d img {
+  height: 100px;
+  margin-bottom: 15px;
+}
+
+.brokrage .content .block.b span,
+.brokrage .content .block.c span,
+.brokrage .content .block.d span {
+  font-weight: 300;
+  font-size: 16px;
+  color: #a49f9c;
+  margin-bottom: 15px;
+}
+
+.brokrage .content .block.b h4,
+.brokrage .content .block.c h4,
+.brokrage .content .block.d h4 {
+  margin-bottom: 15px;
+}
+
 @media only screen and (min-width: 600px) {
 }

@@ -29,15 +29,15 @@
 
 .home .hero .links a {
   color: white;
-  font-weight: 700;
+  font-weight: 500;
   text-transform: uppercase;
   background: #6667a8;
-  border: 2px solid white;
   border-radius: 2px;
   padding: 5px;
   width: 90px;
   text-align: center;
   font-size: 14px;
+  letter-spacing: 1.1px;
 }
 
 .home .content {
@@ -137,14 +137,31 @@
   }
 
   .home .hero .links a {
+    padding: 20px;
+    width: 200px;
+    font-size: 20px;
+    letter-spacing: 1.2px;
+    transition: all 1s ease;
+    border: 4px solid #6667a8;
+  }
+
+  .home .hero .links a:hover {
+    padding: 20px;
+    width: 200px;
+    font-size: 20px;
+    letter-spacing: 1.2px;
+    background: none;
     border: 4px solid white;
-    padding: 10px;
-    width: 175px;
-    font-size: 18px;
   }
 
   .home .content {
     padding: 50px 100px 50px 100px;
+  }
+
+  .home .content .block.a {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
   }
 
   .home .content .block.a h2 {
@@ -153,7 +170,7 @@
   }
 
   .home .content .block.a span {
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 300;
   }
 
@@ -181,8 +198,15 @@
     height: 300px;
   }
 
+  .home .content .block.c {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
   .home .content .block.c span {
-    font-size: 14px;
+    font-size: 16px;
+    line-height: 1.5;
   }
 
   .home .content .block.c a {

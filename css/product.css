@@ -1,2 +1,127 @@
+.product {
+  background: #1c150d;
+}
+
+.product .content label,
+.product .content span {
+  color: white;
+}
+
+.product .content .block.a img {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.product .content .block.a {
+  padding-bottom: 30px;
+}
+
+.product .content .block.a h4 {
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.product .content .block.a span {
+  color: #a49f9c;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+.product .content .block.b input[type="submit"] {
+  background: #6667a8;
+  color: white;
+  padding: 10px;
+  width: 100%;
+  text-align: center;
+  font-size: 14px;
+  text-transform: uppercase;
+  border-radius: 2px;
+  font-weight: 700;
+  border: 2px solid #6667a8;
+  letter-spacing: 1.1px;
+}
+
+.product .content .block.b i {
+  color: white;
+}
+
+.product .content .block.b h4 {
+  color: white;
+  margin-bottom: 15px;
+}
+
+.product .content .block.b .options {
+  margin-bottom: 15px;
+}
+
+.product .content .block.b .options .option {
+  border: 1px solid white;
+  border-radius: 2px;
+  padding: 5px 15px;
+  margin-bottom: 5px;
+}
+
+.product .content .block.b .options .option .handle {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.product .content .block.b .options .option .dropdown {
+  margin-top: 5px;
+}
+
+.product .content .block.b .options .option .dropdown h4 {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.product .content .block.b .options .option .dropdown select {
+  display: block;
+  border: none;
+  background: none;
+  color: white;
+  width: 100%;
+  margin-top: 5px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  padding: 0px 5px 5px 5px;
+}
+
+.product .content .block.b .options .option .dropdown label.select-wrapper {
+  width: 100%;
+  overflow: hidden;
+  height: 100%;
+  position: relative;
+  display: block;
+  border: 1px solid white;
+  border-radius: 2px;
+}
+
+.product
+  .content
+  .block.b
+  .options
+  .option
+  .dropdown
+  label.select-wrapper:after {
+  content: "\f078";
+  font-family: FontAwesome;
+  color: #000;
+  position: absolute;
+  right: 0;
+  top: 0px;
+  z-index: 1;
+  width: 10%;
+  height: 100%;
+  pointer-events: none;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 @media only screen and (min-width: 600px) {
 }

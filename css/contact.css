@@ -1,2 +1,119 @@
+.contact .content .block.a {
+  padding-bottom: 20px;
+}
+
+.contact .content .block.a .methods h3 {
+  text-transform: uppercase;
+  font-size: 14px;
+  padding-bottom: 10px;
+}
+
+.contact .content .block.a .methods p {
+  color: #a49f9c;
+  padding-bottom: 10px;
+}
+
+.contact .content .block.a .methods .handle i {
+  padding-right: 5px;
+  color: #6667a8;
+}
+
+.contact .content .block.a .methods .method {
+  padding-bottom: 30px;
+}
+
+.contact .content .block.a .methods a {
+  color: #a49f9c;
+  font-size: 14px;
+  font-weight: 300;
+  padding-bottom: 10px;
+  text-decoration: none;
+}
+
+.contact .content .block.a .methods span {
+  color: #a49f9c;
+  font-size: 14px;
+  font-weight: 300;
+  padding-bottom: 10px;
+}
+
+.contact .content .block.b .inquiries {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom: 30px;
+}
+
+.contact .content .block.b .inquiries .inquiry {
+  width: 20%;
+  text-align: center;
+  background-color: white;
+  padding: 3px;
+  border: 2px dotted #a49f9c;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70px;
+  width: 70px;
+  font-weight: 700;
+}
+
+.contact .content .block.b .inquiries .inquiry.active {
+  background-color: #6667a8;
+  color: white;
+}
+
+.contact .content .block.b .inquiries .inquiry span {
+  font-size: 12px;
+}
+
+.contact .content .block.b {
+  padding-bottom: 30px;
+}
+
+.contact .content .block.c h1 {
+  text-transform: uppercase;
+}
+
+.contact .content .block.c .questions {
+  padding-bottom: 30px;
+}
+
+.contact .content .block.c .questions .question {
+  margin-bottom: 5px;
+}
+
+.contact .content .block.c .questions .question a {
+  color: #1c150d;
+  font-size: 14px;
+}
+
+.contact .content .block.d .answers .answer {
+  border: 1px dotted #a49f9c;
+  padding: 15px;
+  border-radius: 4px;
+  margin-bottom: 30px;
+}
+
+.contact .content .block.d .answers .answer .subheader {
+  display: flex;
+  flex-direction: row;
+  font-size: 14px;
+  padding-bottom: 10px;
+}
+
+.contact .content .block.d .answers .answer .subheader img {
+  height: 20px;
+  padding-right: 10px;
+  filter: invert(45%) sepia(15%) saturate(1442%) hue-rotate(201deg)
+    brightness(88%) contrast(89%);
+}
+
+.contact .content .block.d .answers .answer span {
+  font-size: 14px;
+  font-weight: 300;
+}
+
 @media only screen and (min-width: 600px) {
 }

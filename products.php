@@ -5,33 +5,41 @@ include("includes/header-dark.php")
 		<div class="content">
 			<div class="block a">
 				<div class="subheader">
-					<img src="" alt="" />
-					<h1> Ron Hedrick</h1>
-					<span>Kelowna, BC</span>
+					<div class="handle"><img class="shadow" src="imgs/44020b2e.jpg" alt="The Canadian Maple" /></div>
+					<h1>Jan Crawford</h1>
+					<span>Penticton, BC</span>
 				</div> <!-- subheader -->
-				<p> Ron Hedrick was born in Vancouver in 1942 and currently resides in Kelowna, BC. Hedrick’s painting career commenced when he received instruction in painting from the noted landscape painter Karl E. Wood in 1968. In 1982, he had his first show at the Peters Gallery while residing in Kamloops, BC. By 1990 the demand for his work increased and his dream of becoming a professional artist was taking shape.</p>
-				<p>Hedrick’s early work was noticeably influenced by fellow Canadian Tom Thompson's stunning colors and heavy impasto oils. As his craft developed, Ron's individual style began to take shape. Hedrick's work is now recognizable with its bright, sunlit colors and spontaneous, confident brushwork. An impressionist by style, and oil painter by medium, Ron captures a scene with a mastery that must be seen to be believed.</p>
+				<p>Jan Crawford was born in Vancouver and moved to an Okanagan orchard as a child, a move which coloured her artistic inspirations throughout her career. As a printmaker and painter, Jan's work reflects environmental issues in B.C., in particular those issues which have an impact on our limited agricultural land. Her landscapes and fruit still lifes are a narration of orchards that have vanished during the past forty years, and form her story about our relationship with the land of the Okanagan and how it forms our cultural identity.</p>
+				<p>Jan studied art in Vancouver and holds degrees from the University of British Columbia and the Emily Carr University of Art and Design. She is an enthusiastic member of the Federation of Canadian Artists, where she is an Associate Member and her paintings show in juried exhibitions.</p>
 			</div> <!-- block a -->
 			<div class="block b">
-				<h2>Pieces<h2>
-					<div class="pieces">
-						<div class="piece">
-							<img src="" alt="" />
-							<h3>You Only Live Once</h3>
-						</div> <!-- piece -->
-						<div class="piece">
-							<img src="" alt="" />
-							<h3>Leading Edge</h3>
-						</div> <!-- piece -->
-						<div class="piece">
-							<img src="" alt="" />
-							<h3>Orchard House Jelly</h3>
-						</div> <!-- piece -->
-						<div class="piece">
-							<img src="" alt="" />
-							<h3>Veranda Hillside</h3>
-						</div> <!-- piece -->
-					</div> <!-- pieces -->
+				<h2>Pieces</h2>
+				<div class="pieces">
+					<div class="piece">
+						<a href="product.php">
+							<img src="imgs/44c924fa.jpg" alt="Split" />
+							<h3>Split</h3>
+						</a>
+					</div> <!-- piece -->
+					<div class="piece">
+						<a href="product.php">
+							<img src="imgs/44530f65.jpg" alt="West Bench Nectarines" />
+							<h3>West Bench Nectarines</h3>
+						</a>
+					</div> <!-- piece -->
+					<div class="piece">
+						<a href="product.php">
+							<img src="imgs/d52e12ef.jpg" alt="Orange Apricot Jam" />
+							<h3>Orange Apricot Jam</h3>
+						</a>
+					</div> <!-- piece -->
+					<div class="piece">
+						<a href="product.php">
+							<img src="imgs/eaf7b20c.jpg" alt="Moorpark Apricots and Jam" />
+							<h3>Moorpark Apricots and Jam</h3>
+						</a>
+					</div> <!-- piece -->
+				</div> <!-- pieces -->
 			</div> <!-- block b -->
 		</div> <!-- content -->
 	</div> <!-- products -->

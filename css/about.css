@@ -1,2 +1,34 @@
+.about .block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 30px;
+}
+
+.about .content .block.b .img-handle {
+  width: 280px;
+  height: 215px;
+  background: white;
+  border: 2px dotted #ede9e7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about .content .block.b img {
+  width: 260px;
+  text-align: center;
+}
+
+.about .content .block.c h2 {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.about .content .block.d {
+  padding-top: 15px;
+}
+
 @media only screen and (min-width: 600px) {
 }

@@ -1,5 +1,5 @@
 
-<div class="footer">
+<div class="footer top-shadow">
     <div class="mobile">
         <div class="left">
             <a href="about.php">About</a>

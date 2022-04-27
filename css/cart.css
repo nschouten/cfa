@@ -1,3 +1,78 @@
+.cart .content .block.a h2 {
+  padding-bottom: 30px;
+}
+
+.cart .content .block.a .products {
+  padding-bottom: 30px;
+}
+
+.cart .content .block.a .products .product {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cart .content .block.a .products .product i {
+  font-size: 12px;
+  border: 1px solid #a49f9c;
+  height: 20px;
+  width: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  color: #a49f9c;
+}
+
+.cart .content .block.a .products .product span {
+  font-size: 12px;
+  font-weight: 300;
+}
+
+.cart .content .block.a .products .product .details {
+  width: 60%;
+}
+
+.cart .content .block.a .products .product .details span {
+  display: block;
+}
+
+.cart .content .block.a .dotted {
+  margin-bottom: 30px;
+}
+
+.cart .content .block.b {
+  padding-bottom: 30px;
+}
+
+.cart .content .block.b h2 {
+  padding-bottom: 30px;
+}
+
+.cart .content .block.b .row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom: 15px;
+}
+
+.cart .content .block.b .dotted {
+  margin-bottom: 15px;
+}
+
+.cart .content .block.b .row span {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.cart .content .block.c {
+  padding-bottom: 15px;
+  display: flex;
+  justify-content: center;
+}
+
 @media only screen and (min-width: 600px) {
   hr.dotted {
     border-top: 3px dotted #bbb;
