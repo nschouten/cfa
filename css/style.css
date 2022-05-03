@@ -288,7 +288,8 @@ a.cta-secondary {
 
 @media only screen and (min-width: 600px) {
   .header .mobile,
-  .footer.dark .mobile {
+  .footer.dark .mobile,
+  .footer .mobile {
     display: none;
   }
 
@@ -343,6 +344,7 @@ a.cta-secondary {
 
   .header .web.dark .menu {
     border-top: 2px dotted white;
+    border-bottom: 2px dotted white;
   }
 
   .header .web.dark .menu a {
@@ -351,7 +353,7 @@ a.cta-secondary {
     font-size: 14px;
   }
 
-  .header .web .menu a.menu-hover {
+  .header .web.dark .menu a.menu-hover {
     border-top: 3px solid #1c150d;
     border-bottom: 3px solid #1c150d;
     padding-bottom: 5px;
@@ -395,11 +397,12 @@ a.cta-secondary {
 
   /* footer dark */
 
-  .footer .web {
+  .footer .web.dark {
     background-color: #1c150d;
+    border-top: 2px dotted white;
   }
 
-  .footer .web .left a {
+  .footer .web.dark .left a {
     color: white;
   }
 

@@ -18,7 +18,7 @@
             <a href="faq.php">FAQ</a>
         </div>
         <div class="right">
-            <a href="index.php"><img src="imgs/footer-logo.svg" alt="cfa footer logo" /></a>
+            <a href="index.php"><img src="imgs/footer-logo-white.svg" alt="cfa footer logo" /></a>
         </div>
     </div>
 </div> 

@@ -5,12 +5,18 @@ include("includes/header-dark.php")
 		<div class="content">
 			<div class="block a">
 				<div class="subheader">
-					<div class="handle"><img class="shadow" src="imgs/44020b2e.jpg" alt="The Canadian Maple" /></div>
-					<h1>Jan Crawford</h1>
-					<span>Penticton, BC</span>
+					<div class="handle">
+						<img class="shadow" src="imgs/44020b2e.jpg" alt="The Canadian Maple" />
+					</div>
 				</div> <!-- subheader -->
-				<p>Jan Crawford was born in Vancouver and moved to an Okanagan orchard as a child, a move which coloured her artistic inspirations throughout her career. As a printmaker and painter, Jan's work reflects environmental issues in B.C., in particular those issues which have an impact on our limited agricultural land. Her landscapes and fruit still lifes are a narration of orchards that have vanished during the past forty years, and form her story about our relationship with the land of the Okanagan and how it forms our cultural identity.</p>
-				<p>Jan studied art in Vancouver and holds degrees from the University of British Columbia and the Emily Carr University of Art and Design. She is an enthusiastic member of the Federation of Canadian Artists, where she is an Associate Member and her paintings show in juried exhibitions.</p>
+				<div class="cluster">
+					<div class="subheader2">
+						<h1>Jan Crawford</h1>
+						<span>Penticton, BC</span>
+					</div>
+					<p>Jan Crawford was born in Vancouver and moved to an Okanagan orchard as a child, a move which coloured her artistic inspirations throughout her career. As a printmaker and painter, Jan's work reflects environmental issues in B.C., in particular those issues which have an impact on our limited agricultural land. Her landscapes and fruit still lifes are a narration of orchards that have vanished during the past forty years, and form her story about our relationship with the land of the Okanagan and how it forms our cultural identity.</p>
+					<p>Jan studied art in Vancouver and holds degrees from the University of British Columbia and the Emily Carr University of Art and Design. She is an enthusiastic member of the Federation of Canadian Artists, where she is an Associate Member and her paintings show in juried exhibitions.</p>
+				</div> <!-- cluster -->
 			</div> <!-- block a -->
 			<div class="block b">
 				<h2>Pieces</h2>
@@ -36,6 +42,18 @@ include("includes/header-dark.php")
 					<div class="piece">
 						<a href="product.php">
 							<img src="imgs/eaf7b20c.jpg" alt="Moorpark Apricots and Jam" />
+							<h3>Moorpark Apricots and Jam</h3>
+						</a>
+					</div> <!-- piece -->
+					<div class="piece web">
+						<a href="product.php">
+							<img src="imgs/c1049962.jpg" alt="Moorpark Apricots and Jam" />
+							<h3>Sour Cherries In July</h3>
+						</a>
+					</div> <!-- piece -->
+					<div class="piece web">
+						<a href="product.php">
+							<img src="imgs/9fa9a52c.jpg" alt="Moorpark Apricots and Jam" />
 							<h3>Moorpark Apricots and Jam</h3>
 						</a>
 					</div> <!-- piece -->

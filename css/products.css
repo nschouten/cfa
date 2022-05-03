@@ -33,6 +33,10 @@
   color: #a49f9c;
 }
 
+.products .content .block.a .subheader2 {
+  margin-bottom: 30px;
+}
+
 .products .content .block.a p {
   color: #a49f9c;
   margin-bottom: 15px;
@@ -76,5 +80,100 @@
   max-width: 100%;
 }
 
+.products .web {
+  display: none;
+}
+
 @media only screen and (min-width: 600px) {
+  .products .web {
+    display: block;
+  }
+
+  .products .content .block.a {
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .products .content .block.a .subheader {
+    width: 30%;
+    margin-bottom: 50px;
+  }
+
+  .products .content .block.a .cluster {
+    width: 60%;
+    margin-top: 25px;
+    margin-bottom: 50px;
+  }
+
+  .products .content .block.a .subheader img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .products .content .block.a .subheader .handle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+  }
+
+  .products .content .block.a .subheader h1 {
+    font-size: 31px;
+  }
+
+  .products .content .block.a .subheader span {
+    font-weight: 300;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #a49f9c;
+  }
+
+  .products .content .block.a p {
+    color: #a49f9c;
+    margin-bottom: 15px;
+    font-size: 16px;
+    font-weight: 300;
+  }
+
+  .products .content .block.b {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .products .content .block.b h2 {
+    margin-bottom: 50px;
+    font-size: 31px;
+  }
+
+  .products .content .block.b .pieces {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .products .content .block.b .pieces .piece {
+    width: 30%;
+    margin-bottom: 30px;
+  }
+
+  .products .content .block.b .pieces .piece h3 {
+    font-size: 16px;
+    color: #a49f9c;
+    font-weight: 300;
+    width: 80%;
+  }
+
+  .products .content .block.b .pieces .piece img {
+    max-width: 100%;
+    margin-bottom: 10px;
+  }
 }

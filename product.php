@@ -5,10 +5,14 @@ include("includes/header-dark.php")
 		<div class="content">
 			<div class="block a">
 				<img src="imgs/44c924fa.jpg" alt="Split" />
-				<h4>Split</h4>
-				<span>Jan Crawford</span>
+				<h4 class="mobile">Split</h4>
+				<span class="mobile">Jan Crawford</span>
 			</div> <!-- block a -->
 			<div class="block b">
+				<div class="header-handle web">
+					<h3>Split</h3>
+					<span>Jan Crawford</span>
+				</div>
 				<h4>Select Option Below</h4>
 				<form action="" method="">
 					<div class="options">
