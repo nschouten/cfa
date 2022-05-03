@@ -12,18 +12,26 @@ include("includes/header.php")
             </div> <!-- block a -->
             <div class="block b">
                 <div class="samples">
-                    <div class="sample img-handle shadow">
-                        <img src="imgs/canvasprint.jpg" alt="Canvas Prints" />
-                    </div> <!-- sample --> 
-                    <div class="sample img-handle shadow">
-                        <img src="imgs/matteprints.jpg" alt="Matte Prints" />
-                    </div> <!-- sample --> 
-                    <div class="sample img-handle shadow">
-                        <img src="imgs/aluminumprints.jpg" alt="Aluminum Prints" />
-                    </div> <!-- sample --> 
-                    <div class="sample img-handle shadow">
-                        <img src="imgs/acrylicprints.jpg" alt="Acrylic Prints" />
-                    </div> <!-- sample --> 
+                    <div class="handle">
+                        <div class="sample img-handle shadow">
+                            <img src="imgs/canvasprint.jpg" alt="Canvas Prints" />
+                        </div> <!-- sample --> 
+                    </div>
+                    <div class="handle">
+                        <div class="sample img-handle shadow">
+                            <img src="imgs/matteprints.jpg" alt="Matte Prints" />
+                        </div> <!-- sample --> 
+                    </div>
+                    <div class="handle">
+                        <div class="sample img-handle shadow">
+                            <img src="imgs/aluminumprints.jpg" alt="Aluminum Prints" />
+                        </div> <!-- sample --> 
+                    </div>
+                    <div class="handle">
+                        <div class="sample img-handle shadow">
+                            <img src="imgs/acrylicprints.jpg" alt="Acrylic Prints" />
+                        </div> <!-- sample --> 
+                    </div>
                 </div> <!-- samples --> 
                 <a class="cta" href="print.php">Start printing</a>
             </div> <!-- block b --> 

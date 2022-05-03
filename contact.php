@@ -54,7 +54,7 @@ include("includes/header.php")
 							<input type="text" placeholder="Phone">
 						</div> <!-- row -->
 						<div class="row">
-							<input type="text" placeholder="Message">
+							<textarea type="text" placeholder="Message"></textarea>
 						</div> <!-- row -->
 						<div class="row">
 							<input type="submit" value="Submit">

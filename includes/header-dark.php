@@ -42,9 +42,9 @@
 			<a href="cart.php"><i class="fa-solid fa-cart-shopping"></i></a>
 		</div> <!-- cart -->
 	</div> <!-- mobile -->
-	<div class="web">
+	<div class="web dark">
 		<div class="logo">
-			<a href="index.php"><img src="imgs/logo_justtext.svg" alt="cfa logo" /></a>
+			<a href="index.php"><img src="imgs/logo_justtext_white.svg" alt="cfa logo" /></a>
 		</div>
 		<div class="menu shadow">
 			<a href="print.php" class="menu-hover">Printing</a>

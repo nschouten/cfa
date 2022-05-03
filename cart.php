@@ -12,6 +12,9 @@ include("includes/header.php")
 				<div class="products">
 					<div class="product">
 						<i class="fa-solid fa-x"></i>
+						<div class="img-handle shadow web">
+							<img src="imgs/6840a176.jpg" alt="Strolling Along"/>
+						</div>
 						<div class="details">
 							<span>Strolling Along Bernard Limited Edition 3D Textured Replica</span>
 							<span>16 x 12 "</span>

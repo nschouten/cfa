@@ -16,7 +16,8 @@ p,
 a,
 span,
 label,
-input {
+input,
+textarea {
   font-family: "Lato", sans-serif;
   text-decoration: none;
 }
@@ -287,12 +288,12 @@ a.cta-secondary {
 
 @media only screen and (min-width: 600px) {
   .header .mobile,
-  .footer .mobile {
+  .footer.dark .mobile {
     display: none;
   }
 
   .header .web,
-  .footer,
+  .footer.dark,
   .web {
     display: block;
   }
@@ -338,6 +339,25 @@ a.cta-secondary {
     padding-bottom: 5px;
   }
 
+  /* header dark */
+
+  .header .web.dark .menu {
+    border-top: 2px dotted white;
+  }
+
+  .header .web.dark .menu a {
+    text-transform: uppercase;
+    color: white;
+    font-size: 14px;
+  }
+
+  .header .web .menu a.menu-hover {
+    border-top: 3px solid #1c150d;
+    border-bottom: 3px solid #1c150d;
+    padding-bottom: 5px;
+    transition: all 0.5s ease;
+  }
+
   /* footer */
 
   .footer .web {
@@ -371,5 +391,66 @@ a.cta-secondary {
 
   .footer .web .right img {
     height: 105px;
+  }
+
+  /* footer dark */
+
+  .footer .web {
+    background-color: #1c150d;
+  }
+
+  .footer .web .left a {
+    color: white;
+  }
+
+  /* pages */
+
+  .page {
+    padding: 100px;
+  }
+
+  .page .header {
+    margin-bottom: 50px;
+  }
+
+  .page .header h1 {
+    font-size: 32px;
+  }
+
+  .page .header span {
+    font-size: 16px;
+  }
+
+  .page .content p {
+    font-size: 16px;
+  }
+
+  a.cta {
+    padding: 10px;
+    width: 300px;
+    font-size: 16px;
+    border-radius: 2px;
+    border: 2px solid #6667a8;
+    letter-spacing: 1.1px;
+    transition: all 1s ease;
+  }
+
+  a.cta:hover {
+    padding: 10px;
+    width: 300px;
+    font-size: 16px;
+    border-radius: 2px;
+    background: white;
+    border: 2px solid #6667a8;
+    color: #6667a8;
+    letter-spacing: 1.1px;
+  }
+
+  a.cta-secondary {
+    border: 2px solid #6667a8;
+    width: 300px;
+    font-size: 16px;
+    border-radius: 2px;
+    padding: 10px;
   }
 }
