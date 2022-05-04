@@ -21,7 +21,7 @@
 <body>
 
 <div class="header">
-    <div class="mobile">
+    <div class="mobile shadow">
 		<div class="nav">
 			<div class="burger">
 				<input type="checkbox" class="cb">
