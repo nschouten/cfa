@@ -21,12 +21,16 @@
 .print .content .block.b .samples .img-handle {
   width: 270px;
   height: 210px;
-  background: white;
-  border: 2px dotted #ede9e7;
+  background: #1c150d;
+  border: 2px dotted #1c150d;
   display: flex;
   align-items: center;
   justify-content: center;
   margin-bottom: 30px;
+}
+
+.print .content .block.b .web {
+  display: none;
 }
 
 @media only screen and (min-width: 600px) {
@@ -65,11 +69,40 @@
   .print .content .block.b .samples .img-handle {
     width: 370px;
     height: 280px;
-    background: white;
-    border: 2px dotted #ede9e7;
+    background: #1c150d;
+    border: 2px dotted #1c150d;
     display: flex;
     align-items: center;
     justify-content: center;
     margin-bottom: 50px;
+    transition: all 1s ease;
+  }
+
+  .print .content .block.b .samples .sample.img-handle:hover {
+    width: 370px;
+    height: 280px;
+    background: white;
+    border: 2px dotted #1c150d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+  }
+
+  .print .content .block.b .samples .sample:hover .web {
+    display: block;
+    color: #1c150d;
+    padding: 15px;
+  }
+
+  .print .content .block.b .samples .sample:hover .web h4 {
+    margin-bottom: 10px;
+  }
+
+  .print .content .block.b .samples .sample:hover img {
+    display: none;
   }
 }

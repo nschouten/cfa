@@ -11,7 +11,7 @@
             <a href="faq.php">FAQ</a>
         </div>
     </div>
-    <div class="web">
+    <div class="web dark">
         <div class="left">
             <a href="about.php">About</a>
             <a href="contact.php">Contact</a>

@@ -300,15 +300,26 @@ a.cta-secondary {
   }
 
   /* header */
-  .header .web {
+  .header .web,
+  .header.dark .web {
     display: flex;
     flex-direction: column;
+    position: relative;
   }
 
   .header .web .logo {
     min-width: 450px;
     padding: 50px 100px 50px 100px;
     margin: 0 auto;
+  }
+
+  .header .web .sub-logo img,
+  .header.dark .web .sub-logo img {
+    height: 100px;
+    margin: 25px 0 0 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
   }
 
   .header .web .menu {
@@ -451,6 +462,17 @@ a.cta-secondary {
 
   a.cta-secondary {
     border: 2px solid #6667a8;
+    width: 300px;
+    font-size: 16px;
+    border-radius: 2px;
+    padding: 10px;
+    transition: all 1s ease;
+  }
+
+  a.cta-secondary:hover {
+    border: 2px solid #6667a8;
+    background-color: #6667a8;
+    color: white;
     width: 300px;
     font-size: 16px;
     border-radius: 2px;

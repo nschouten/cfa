@@ -49,6 +49,9 @@
 		</div> <!-- cart -->
 	</div> <!-- mobile -->
 	<div class="web">
+		<div class="sub-logo">
+			<img src="imgs/footer-logo.svg" alt="cfa footer logo" />
+		</div>
 		<div class="logo">
 			<a href="index.php"><img src="imgs/logo_justtext.svg" alt="cfa logo" /></a>
 		</div>

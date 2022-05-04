@@ -21,7 +21,9 @@ include("includes/header.php")
 				<div class="services">
 					<div class="service">
 						<a href="scan.php">
-						<div class="img-handle shadow"><img src="imgs/crusescanner1.jpg" alt="Cruse Scanner"/></div>
+						<div class="img-handle shadow">
+							<img src="imgs/crusescanner1.jpg" alt="Cruse Scanner"/>
+						</div>
 						Scanning Services</a>
 					</div> <!-- service -->
 					<div class="service">

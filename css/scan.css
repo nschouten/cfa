@@ -32,12 +32,12 @@
   .scan .content .block.a .img-handle {
     width: 60%;
     height: 100%;
-    background: white;
-    border: 2px dotted #ede9e7;
+    background: #1c150d;
+    border: 2px dotted #1c150d;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
   }
 
   .scan .content .block.a img {

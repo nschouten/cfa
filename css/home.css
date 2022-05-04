@@ -83,8 +83,8 @@
 .home .content .block.b .img-handle {
   height: 230px;
   width: 230px;
-  background: white;
-  border: 2px dotted #ede9e7;
+  background: #1c150d;
+  border: 2px dotted #1c150d;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -215,7 +215,7 @@
     width: 200px;
     border-radius: 2px;
     background-color: #6667a8;
-    border: 2px solid white;
+    border: 2px solid #6667a8;
     color: white;
     text-align: center;
     margin: 0 auto;
@@ -227,7 +227,7 @@
   .home .content .block.c a:hover {
     background-color: white;
     color: #6667a8;
-    border: 2px solid #6667a8;
+    border: 2px solid white;
     border-radius: 2px;
   }
 }

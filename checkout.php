@@ -8,71 +8,73 @@ include("includes/header.php")
 		</div> <!-- header -->
 		<div class="content">
 			<form action="" method="">
-				<div class="block a">
-					<h2>Billing Details</h2>
-					<div class="section">
+				<div class="cluster">
+					<div class="block a">
+						<h2>Billing Details</h2>
+						<div class="section">
+							<div class="row">
+								<input type="text" placeholder="First Name">
+							</div>
+							<div class="row">
+								<input type="text" placeholder="Last Name">
+							</div>
+							<div class="row">
+								<input type="text" placeholder="Address">
+							</div>
+							<div class="row">
+								<input type="text" placeholder="City">
+							</div>
+							<div class="row">
+								<input type="text" placeholder="Province">
+							</div>
+							<div class="row">
+								<input type="text" placeholder="Postal Code">
+							</div>
+							<div class="row">
+								<input type="text" placeholder="Country">
+							</div>
+							<div class="row">
+								<input type="text" placeholder="Phone">
+							</div>
+							<div class="row">
+								<input type="text" placeholder="Email">
+							</div>
+						</div> <!-- form -->
+					</div> <!-- block a -->
+					<div class="block b">
+						<h2>Shipping Details</h2>
+						<div class="container">
+							<label>
+								<span class="label">Shipping same as billing?</span>
+								<input type="checkbox" checked="checked">
+								<span class="checkmark"></span>
+							</label> 
+						</div> <!-- container -->
+						<div class="section">
 						<div class="row">
-							<input type="text" placeholder="First Name">
-						</div>
-						<div class="row">
-							<input type="text" placeholder="Last Name">
-						</div>
-						<div class="row">
-							<input type="text" placeholder="Address">
-						</div>
-						<div class="row">
-							<input type="text" placeholder="City">
-						</div>
-						<div class="row">
-							<input type="text" placeholder="Province">
-						</div>
-						<div class="row">
-							<input type="text" placeholder="Postal Code">
-						</div>
-						<div class="row">
-							<input type="text" placeholder="Country">
-						</div>
-						<div class="row">
-							<input type="text" placeholder="Phone">
-						</div>
-						<div class="row">
-							<input type="text" placeholder="Email">
-						</div>
-					</div> <!-- form -->
-				</div> <!-- block a -->
-				<div class="block b">
-					<h2>Shipping Details</h2>
-					<div class="container">
-						<label>
-							<span class="label">Shipping same as billing?</span>
-							<input type="checkbox" checked="checked">
-							<span class="checkmark"></span>
-						</label> 
-					</div> <!-- container -->
-					<div class="section">
-					<div class="row">
-							<input type="text" placeholder="First Name">
-						</div>
-						<div class="row">
-							<input type="text" placeholder="Last Name">
-						</div>
-						<div class="row">
-							<input type="text" placeholder="Address">
-						</div>
-						<div class="row">
-							<input type="text" placeholder="City">
-						</div>
-						<div class="row">
-							<input type="text" placeholder="Province">
-						</div>
-						<div class="row">
-							<input type="text" placeholder="Postal Code">
-						</div>
-						<div class="row">
-							<input type="text" placeholder="Country">
-						</div>
-					</div> <!-- form -->
-				</div> <!-- block b -->
+								<input type="text" placeholder="First Name">
+							</div>
+							<div class="row">
+								<input type="text" placeholder="Last Name">
+							</div>
+							<div class="row">
+								<input type="text" placeholder="Address">
+							</div>
+							<div class="row">
+								<input type="text" placeholder="City">
+							</div>
+							<div class="row">
+								<input type="text" placeholder="Province">
+							</div>
+							<div class="row">
+								<input type="text" placeholder="Postal Code">
+							</div>
+							<div class="row">
+								<input type="text" placeholder="Country">
+							</div>
+						</div> <!-- form -->
+					</div> <!-- block b -->
+				</div>
 				<div class="block c">
 					<h2>Order Review</h2>
 					<div class="products">
@@ -110,20 +112,19 @@ include("includes/header.php")
 					<h2>Payment</h2>
 					<div class="section">
 						<div class="row">
-							<input type="text">
+							<input type="text" placeholder="Name on Card">
 						</div>
 						<div class="row">
-							<input type="text">
+							<input type="text" placeholder="Card Number">
 						</div>
-						<div class="row">
-							<input type="text">
-						</div>
-						<div class="row">
-							<input type="text">
-						</div>
-						<div class="row">
-							<input type="text">
-						</div>
+						<div class="cluster">
+							<div class="row">
+								<input type="text" placeholder="Expiration Date">
+							</div>
+							<div class="row">
+								<input type="text" placeholder="CCV/CVC">
+							</div>
+						</div> <!-- cluster -->
 					</div> <!-- section -->
 					<div class="handle">
 						<input class="submit-btn" type="submit" value="Place Order">

@@ -15,25 +15,49 @@ include("includes/header.php")
                     <div class="handle">
                         <div class="sample img-handle shadow">
                             <img src="imgs/canvasprint.jpg" alt="Canvas Prints" />
+                            <div class="img-hover web">
+                                <div class="subhandle">
+                                    <h4>Canvas Prints</h4>
+                                    <p>Esteemed artwork and photos printed on high tensile strength cotton canvas that is acid and lignin free. Coated with a satin varnish that protects from UV light and ensures scratch resistance. Canvas prints are gallery-wrapped over framing grade wooden stretcher bars. This classic canvas look gives your images a soft and alluring texture, a perfect decor piece for your corporate and home space.</p>
+                                </div>
+                            </div> <!-- img-hover --> 
                         </div> <!-- sample --> 
                     </div>
                     <div class="handle">
                         <div class="sample img-handle shadow">
                             <img src="imgs/matteprints.jpg" alt="Matte Prints" />
+                            <div class="img-hover web">
+                                <div class="subhandle">
+                                    <h4>Matte Prints</h4>
+                                    <p>Esteemed artwork and photos printed on high tensile strength cotton canvas that is acid and lignin free. Coated with a satin varnish that protects from UV light and ensures scratch resistance. Canvas prints are gallery-wrapped over framing grade wooden stretcher bars. This classic canvas look gives your images a soft and alluring texture, a perfect decor piece for your corporate and home space.</p>
+                                </div>
+                            </div> <!-- img-hover --> 
                         </div> <!-- sample --> 
                     </div>
                     <div class="handle">
                         <div class="sample img-handle shadow">
                             <img src="imgs/aluminumprints.jpg" alt="Aluminum Prints" />
+                            <div class="img-hover web">
+                                <div class="subhandle">
+                                    <h4>Aluminum Prints</h4>
+                                    <p>Esteemed artwork and photos printed on high tensile strength cotton canvas that is acid and lignin free. Coated with a satin varnish that protects from UV light and ensures scratch resistance. Canvas prints are gallery-wrapped over framing grade wooden stretcher bars. This classic canvas look gives your images a soft and alluring texture, a perfect decor piece for your corporate and home space.</p>
+                                </div>
+                            </div> <!-- img-hover --> 
                         </div> <!-- sample --> 
                     </div>
                     <div class="handle">
                         <div class="sample img-handle shadow">
                             <img src="imgs/acrylicprints.jpg" alt="Acrylic Prints" />
+                            <div class="img-hover web">
+                                <div class="subhandle">
+                                    <h4>Acrylic Prints</h4>
+                                    <p>Esteemed artwork and photos printed on high tensile strength cotton canvas that is acid and lignin free. Coated with a satin varnish that protects from UV light and ensures scratch resistance. Canvas prints are gallery-wrapped over framing grade wooden stretcher bars. This classic canvas look gives your images a soft and alluring texture, a perfect decor piece for your corporate and home space.</p>
+                                </div>
+                            </div> <!-- img-hover --> 
                         </div> <!-- sample --> 
                     </div>
                 </div> <!-- samples --> 
-                <a class="cta" href="print.php">Start printing</a>
+                <a class="cta" href="contact.php">Start printing</a>
             </div> <!-- block b --> 
         </div> <!-- content -->
 	</div> <!-- print -->

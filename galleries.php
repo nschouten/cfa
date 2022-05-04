@@ -1,5 +1,5 @@
 <?php
-include("includes/header.php")
+include("includes/header-dark.php")
 ?> 
 	<div class="page galleries">
 		<div class="header">
@@ -32,5 +32,5 @@ include("includes/header.php")
 		</div> <!-- content -->
 	</div> <!-- galleries -->
 <?php
-include("includes/footer.php")
+include("includes/footer-dark.php")
 ?> 

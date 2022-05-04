@@ -6,6 +6,7 @@
 	<link rel="stylesheet" type="text/css" href="css/artists.css">
 	<link rel="stylesheet" type="text/css" href="css/products.css">
 	<link rel="stylesheet" type="text/css" href="css/product.css">
+	<link rel="stylesheet" type="text/css" href="css/galleries.css">
 	<script src="https://kit.fontawesome.com/e3512c10d7.js" crossorigin="anonymous"></script>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 	<link rel="preconnect" href="https://fonts.googleapis.com"> 
@@ -43,6 +44,9 @@
 		</div> <!-- cart -->
 	</div> <!-- mobile -->
 	<div class="web dark">
+		<div class="sub-logo">
+			<img src="imgs/footer-logo-white.svg" alt="cfa footer logo" />
+		</div>
 		<div class="logo">
 			<a href="index.php"><img src="imgs/logo_justtext_white.svg" alt="cfa logo" /></a>
 		</div>
